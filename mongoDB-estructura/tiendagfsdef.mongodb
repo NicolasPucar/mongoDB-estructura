@@ -1,10 +1,10 @@
 
-use('mongo_tiendaGafasDef');
-//CREATE COLLECTION
+use('gafasNPC');
+
 db.createCollection('gafasNPC');
 
-//INSERT DATA
-db.eyerwear.insertMany([
+
+db.gafasNPC.insertMany([
     {
     "_id": {
       "oid": "67fg7f7f77f7rhkjkhgb"

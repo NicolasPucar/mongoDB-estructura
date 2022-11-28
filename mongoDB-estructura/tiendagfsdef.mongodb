@@ -28,11 +28,11 @@ db.gafasNPC.insertMany([
         "pais": "Spain"
       },
       "telefono": "+3466777881",
-      "email": "cristinagarcia@gmail.com",
+      "email": "cagarciajuan@gmail.com",
       "fecha": "2021-01-22"
     },
     "distribuidor": {
-      "nombre": "Europe Eyewear Distribution, Ltd.",
+      "nombre": "DistribuGafas",
       "direccion": {
         "calle": "calle Padilla",
         "numero": "194",

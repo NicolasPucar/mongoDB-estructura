@@ -1,0 +1,89 @@
+
+use('mongo_tiendaGafasDef');
+//CREATE COLLECTION
+db.createCollection('gafasNPC');
+
+//INSERT DATA
+db.eyerwear.insertMany([
+    {
+    "_id": {
+      "oid": "67fg7f7f77f7rhkjkhgb"
+    },
+    "marca": "Rayban",
+    "graduacion_izquierda": "3.00",
+    "graduacion_derecha": "4.25",
+    "color_lente": "negra",
+    "tipo_montura": "acero",
+    "color_montura": "verde",
+    "precio": "180.90",
+    "cliente": {
+      "nombre": "Juanca García",
+      "dirección": {
+        "calle": "Gran Via",
+        "numero": "16",
+        "piso": "3",
+        "puerta": "1",
+        "ciudad": "Barcelona",
+        "cp": "08014",
+        "pais": "Spain"
+      },
+      "telefono": "+3466777881",
+      "email": "cristinagarcia@gmail.com",
+      "fecha": "2021-01-22"
+    },
+    "distribuidor": {
+      "nombre": "Europe Eyewear Distribution, Ltd.",
+      "direccion": {
+        "calle": "calle Padilla",
+        "numero": "194",
+        "cp": "08013",
+        "ciudad": "Barcelona",
+        "pais": "España"
+      },
+      "telefono": "932322202",
+      "fax": "933933933",
+      "nif": "321321312"
+    }
+  },
+  {
+    "_id": {
+      "oid": "62b048f5e26f84c75ae436c5"
+    },
+    "brand": "Prada",
+    "graduacion_derecha": "2.5",
+    "graduacion_izquierda": "5",
+    "color_lente": "negro",
+    "tipo_montura": "acetato",
+    "color_montura": "verde",
+    "precio": "550",
+    "cliente": {
+      "nombre": "Pau Gasol",
+      "direccion": {
+        "calle": "Plaça Iberia",
+        "numero": "16",
+        "piso": "3",
+        "puerta": "1",
+        "ciudad": "Barcelona",
+        "cp": "08031",
+        "pais": "España",
+        "cliente_referencia": null
+      },
+      "phone": "932220000",
+      "email": "lakersla@gmail.com",
+      "date_registration": "2022-02-22"
+    },
+    "distribuidor": {
+      "nombre": "Gafastore",
+      "direccion": {
+        "calle": "Carrer Sils",
+        "numero": "113",
+        "cp": "08040",
+        "ciudad": "Barcelona",
+        "pais": "España"
+      },
+      "telefono": "777777779",
+      "fax": "931113332",
+      "nif": "A34323233"
+    }
+  }
+]);

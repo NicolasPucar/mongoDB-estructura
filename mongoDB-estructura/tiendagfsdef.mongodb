@@ -6,9 +6,7 @@ db.createCollection('gafasNPC');
 
 db.gafasNPC.insertMany([
     {
-    "_id": {
-      "oid": "67fg7f7f77f7rhkjkhgb"
-    },
+    "_id": },
     "marca": "Rayban",
     "graduacion_izquierda": "3.00",
     "graduacion_derecha": "4.25",

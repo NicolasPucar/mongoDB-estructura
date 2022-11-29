@@ -47,7 +47,7 @@ db.gafasNPC.insertMany([
     "_id": {
       "oid": "62b048f5e26f84c75ae436c5"
     },
-    "brand": "Prada",
+    "marca": "Prada",
     "graduacion_derecha": "2.5",
     "graduacion_izquierda": "5",
     "color_lente": "negro",

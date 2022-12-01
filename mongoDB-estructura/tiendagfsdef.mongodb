@@ -1,8 +1,0 @@
-
-use('gafasNPC');
-
-db.createCollection('gafasNPC');
-
-
-db.gafasNPC.insertMany([
-  
